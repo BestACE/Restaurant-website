@@ -7,7 +7,6 @@
 body{
 	padding: 0;
 	margin: 0;
-	background-color: red;
 	
 }
 /*daohang*/
@@ -137,7 +136,7 @@ section{
 	height: 100px;
 	position: absolute;
 	top: 0;
-	bottom: 0;
+	bottom: 50px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -275,6 +274,9 @@ section{
 	left: 25%;
 	right: 0;
 	margin: auto;
+}
+.dishes .Dmenu ul li figure figcaption h2{
+	margin-bottom: 25px;
 }
 .dishes .Dmenu ul li figure .price{
 	width:10%;
@@ -452,16 +454,17 @@ section{
 }
 .dishes .dessertCenter-1 ul{
 	float: left;
+	height: 480px;
 }
 .dishes .dessertCenter-1 ul li figure img{
-	border-radius: 100%;
+	/*border-radius: 100%;*/
 }
 .dishes .dessertCenter-1 .Dmenu_{
 	float: right;
 }
 .dishes .Dmenu .dessertCenter{
 	width: 1000px;
-	height: 400px;
+	height: 480px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -472,7 +475,7 @@ section{
 }
 .dishes .Dmenu .dessertCenter .dessertContainer{
 	width: 2000px;
-	height: 400px;
+	height: 480px;
 	transition: transform .5s;
 	position: absolute;
 	top: 0;
@@ -485,17 +488,14 @@ section{
 }
 .dishes .Dmenu .dessertCenter .dessertContainer .dessertCenter-1{
 	width: 1000px;
-	height: 400px;
+	height: 480px;
 }
 .dishes .Dmenu .dessertCenter .dessertContainer .dessertCenter-2{
 	width: 1000px;
-	height: 400px;
+	height: 480px;
 }
 .dishes .dessertCenter-2 ul{
 	float: left;
-}
-.dishes .dessertCenter-2 ul li figure img{
-	border-radius: 100%;
 }
 .dishes .dessertCenter-2 .Dmenu_{
 	float: right;
