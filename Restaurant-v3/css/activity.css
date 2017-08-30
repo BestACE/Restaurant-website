@@ -51,6 +51,7 @@ header{
  */
 #slideshow{
   width: 100%;  
+  min-width: 1200px;
   /*height: 900px;*/
   margin:60px auto 0 auto; /*设置在页面水平居中*/
   overflow: hidden;

@@ -78,6 +78,7 @@ header{
 footer {
 	background-color: #282828;
 	text-align: center;
+	min-width: 1200px;
 	height: 40px;
 }
 
