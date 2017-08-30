@@ -37,7 +37,7 @@ OvegL.addEventListener("click", function() {
 
 OvegR.addEventListener("click", function() {
 	
-	if (pos == -1000) {
+	if (pos == -3000) {
 		return false;
 	}
 	pos -= 1000;
@@ -63,7 +63,7 @@ OvegU.addEventListener("click", function() {
 
 OvegD.addEventListener("click", function() {
 	
-	if (posi == -530) {
+	if (posi == -1060) {
 		return false;
 	}
 	posi -= 530;
@@ -80,7 +80,7 @@ OderL.addEventListener("click",function(){
 	OderP.style.transform = "translate(" + po + "px,0)";
 });
 
-//向右翻
+//向右翻2
 OderR.addEventListener("click", function() {
 	if (po == -1000) {
 		return false;
