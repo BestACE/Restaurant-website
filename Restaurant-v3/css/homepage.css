@@ -1,4 +1,4 @@
-/*全局*/
+﻿/*全局*/
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -31,6 +31,7 @@ body{
 /*header*/
 header{
 	width: 100%;
+	min-width: 1200px;
 	height: 60px;
 	position: fixed;
 	top: 0;
